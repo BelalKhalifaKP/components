@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = { plugins: [require("tailwindcss")] };
 
-module.exports = nextConfig
+module.exports = nextConfig;
